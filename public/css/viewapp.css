@@ -1,0 +1,84 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+input[type="submit"] {
+    margin: 0 1%;
+    padding: 2px 10px;
+    font-size: 20px;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 140px;
+}
+
+#back-arrow {
+   margin-top: 10px;
+   margin-left: 20px;
+   display: flex;
+   flex-direction: row;
+   height: 10vh;  
+}
+#back-arrow img{
+    width: 3%; 
+}
+#back-arrow p{
+    margin-left: 20px;
+   padding-top: 20px;
+   font-size: 20px;
+  
+}
+
+#application-id {
+    margin: 2%
+}
+#applicant-info{
+    font-size: 25px;
+    padding: 20px;
+}
+.applicationid-style {
+    font-size: 30px;
+    margin-bottom: 10px; 
+}
+
+
+
+#user-files{
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(245, 241, 235);
+    text-align: center;
+    display: grid;
+    grid-template-rows:  repeat(5,20%);
+    border-radius: 20px 10px;
+    
+}
+
+#user-files img{
+    width: 100px;
+    text-align: center;
+}
+#user-files div{
+    height: 35vh;
+   border: 1px solid gray;
+   display: grid;
+   grid-template-rows: 20% auto 15%;
+}
+#user-files p:nth-child(1){
+   display: block;
+   float: left;
+   /* margin-right: 70%; */
+   margin-top: 1%;
+   font-size: 23px;
+   font-weight: bold;
+}
