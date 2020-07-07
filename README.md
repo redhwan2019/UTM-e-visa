@@ -3,15 +3,13 @@
 # Getting started
 To get the Node server running locally:
 
-Clone this repo
-`npm install` to install all required dependencies.
-go to phpmyadmin at xampp and create a database with "any name" and then import db.sql file into the new database.
-`node index.js` to start the local server
+1. Clone this repo
+2. `npm install` to install all required dependencies.
+3. go to phpmyadmin at xampp and create a database with "any name" and then import db.sql file into the new database.
+4. modify the file `database.js` with the database info. 
+5. `node index.js` to start the local server
 
-
-
-
-View the demo
+#View the demo
 
 Demo credentials
 
